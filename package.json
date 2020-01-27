@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "monaco-editor": "^0.15.6",
+    "monaco-editor-vue": "^1.0.9",
+    "monaco-editor-webpack-plugin": "1.7",
+    "tailwindcss": "^1.1.4",
+    "vue": "^2.6.10",
+    "vue-p5": "^0.8.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.0",
@@ -36,7 +41,8 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {},
+      "tailwindcss": {}
     }
   },
   "browserslist": [
